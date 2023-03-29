@@ -1,9 +1,10 @@
 import React from 'react';
+import TopicCard from '../../Components/TopicCard/TopicCard';
 
 const Home = () => {
     return (
         <div>
-            This is home page.
+            <TopicCard />
         </div>
     );
 };
