@@ -1,4 +1,5 @@
 import React from "react";
+import InstructionModal from "../InstructionModal/InstructionModal";
 
 const TopicCard = () => {
   return (
@@ -27,6 +28,7 @@ const TopicCard = () => {
           </label>
         </div>
       </div>
+      <InstructionModal/>
     </div>
   );
 };

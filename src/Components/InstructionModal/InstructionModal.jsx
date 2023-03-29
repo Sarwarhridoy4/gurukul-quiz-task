@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const InstructionModal = () => {
@@ -40,7 +41,7 @@ const InstructionModal = () => {
           </div>
           {/* Content */}
           {isSelected === "instructions" ? (
-            <>
+            <div>
               <h3 className="text-base font-bold my-3">
                 Time allocated for this examination is 30 mins
               </h3>
@@ -97,20 +98,22 @@ const InstructionModal = () => {
 
               <div className="text-right ">
                 
-                  <label
-                    htmlFor="test-modal"
+                <Link to='/start-test'>
+                <label
+                    // htmlFor="test-modal"
                     className="py-2 px-4 rounded-md font-semibold text-white bg-blue-600 border-none "
                   >
                     Begin Test
                   </label>
+                </Link>
                 
               </div>
-            </>
+            </div>
           ) : (
-            <>
+            <div>
               <p className="font-bold text-black">Quant</p>
               <p> Numbers</p>
-            </>
+            </div>
           )}
         </div>
       </div>
