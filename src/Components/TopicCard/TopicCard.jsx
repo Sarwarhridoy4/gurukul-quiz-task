@@ -20,7 +20,7 @@ const TopicCard = () => {
 
           {/* The button to open modal */}
           <label
-            htmlFor='my-modal'
+            htmlFor='test-modal'
             className='btn bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide'
           >
             Start Test.
