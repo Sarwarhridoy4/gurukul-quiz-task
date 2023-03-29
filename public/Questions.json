@@ -1,0 +1,98 @@
+{
+    "status": true,
+    "data": {
+    "total": 8,
+    "id": 4,
+    "name": "CSS",
+    "logo": "https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
+    "questions": [
+    {
+    "options": [
+    "Chicken Salad Sandwich",
+    "Cascading Style Sheet",
+    "Central Security Service",
+    "Cold Shrimp Salad"
+    ],
+    "id": "1",
+    "question": "<p>What is the meaning of CSS?</p>",
+    "correctAnswer": "Cascading Style Sheet"
+    },
+    {
+    "options": [
+    "<css></css>",
+    "<color></color>",
+    "<style></style>",
+    "<head></head>"
+    ],
+    "id": "2",
+    "question": "<p>Which tag will you use to add style on your website?</p>",
+    "correctAnswer": "<style></style>"
+    },
+    {
+    "options": [
+    "p{ blue: color }",
+    "p{ color = blue }",
+    "p{ color : blue; }",
+    "p{ text: “blue”; }"
+    ],
+    "id": "3",
+    "question": "<p>How will you add blue color to all paragraph tags?</p><p>Hint: write four parts of a style rule</p>",
+    "correctAnswer": "p{ color : blue; }"
+    },
+    {
+    "options": [
+    "color:purple;",
+    "background color:purple;",
+    "background-color:purple;",
+    "backgroundColor:purple;"
+    ],
+    "id": "4",
+    "question": "<p><span style=background-color: transparent; color: rgb(0, 0, 0);>How would you set a purple background color to an element?</span></p>",
+    "correctAnswer": "background-color:purple;"
+    },
+    {
+    "options": [
+    "p{ width: 1/2 }",
+    "p{ width: 50%; }",
+    "p{ width: 0.5; }",
+    "p{ width: half; }"
+    ],
+    "id": "5",
+    "question": "<p>How to set the width of all paragraph tags as half of the available width? </p><p>Hint: think about the total width as a percent and then think about the half of the width</p>",
+    "correctAnswer": "p{ width: 50%; }"
+    },
+    {
+    "options": [
+    "The value of multiple ID attributes has to be unique",
+    "Use ID to style a specific HTML element",
+    "Same ID should be used in different HTML tags"
+    ],
+    "id": "6",
+    "question": "<p>Which one is not true?</p>",
+    "correctAnswer": "Same ID should be used in different HTML tags"
+    },
+    {
+    "options": [
+    "Separate class names by a whitespace",
+    "Separate class names by a comma",
+    "You cannot apply more than one class name",
+    "Use id"
+    ],
+    "id": "7",
+    "question": "<p>How can we add multiple classes to an HTML element?</p>",
+    "correctAnswer": "Separate class names by a whitespace"
+    },
+    {
+    "options": [
+    "One",
+    "Two",
+    "Seven",
+    "Four"
+    ],
+    "id": "8",
+    "question": "<p>How many values a margin style rule cannot have?</p>",
+    "correctAnswer": "Seven"
+    }
+    ]
+    }
+    }
